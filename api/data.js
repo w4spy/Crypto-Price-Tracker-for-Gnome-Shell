@@ -41,7 +41,7 @@ async function _getPriceFromBinance(name, vol) {
   let dailychange = +jsonRes.priceChangePercent.slice(0,4) + '%d';
   let candleopen = JSON.parse(me_res.body)[0][1];
   let me_price = jsonRes.lastPrice;
-  let change = (((me_price - candleopen)/candleopen) * 100).toString().slice(0,4);
+  let change = (((me_price - candleopen)/candleopen) * 100).toString().slice(0,4)+'%';
   let price = +jsonRes.lastPrice.slice(0,6) + '  ' + change + '  ' + dailychange;
   //2 lines under commented by me
   let maximumFractionDigits = 0; 
