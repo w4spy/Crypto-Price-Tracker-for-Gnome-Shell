@@ -36,7 +36,7 @@ Go on the [CryptoPriceTracker](https://extensions.gnome.org/extension/2817/crypt
 
 Clone the git repo:
 
-    $ git clone https://github.com/alipirpiran/Crypto-Price-Tracker-for-Gnome-Shell.git
+    $ git clone https://github.com/w4spy/Crypto-Price-Tracker-for-Gnome-Shell.git
 
 Create extension dir and Copy files in it:
 
