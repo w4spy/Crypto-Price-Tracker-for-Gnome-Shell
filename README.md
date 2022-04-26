@@ -17,7 +17,7 @@ An extension for Gnome-Shell to track price of Crypto currencies.
 <br />
 <br />
 <p align="center">
- <img src="https://github.com/alipirpiran/Crypto-Price-Tracker-for-Gnome-Shell/blob/screenshots/scrcrypto.png?raw=true" alt="Screenshot">
+ <img src="https://github.com/w4spy/Crypto-Price-Tracker-for-Gnome-Shell/blob/master/screen.png?raw=true" alt="Screenshot">
  </p>
  
  <br />
