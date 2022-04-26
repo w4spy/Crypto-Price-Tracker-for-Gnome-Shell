@@ -30,7 +30,7 @@ var getPrice = async function (name, vol) {
       return _getPriceFromOKX(name, vol);
   }
 };
-
+//edited only this fuction
 async function _getPriceFromBinance(name, vol) {
   const url = 'https://api.binance.com/api/v3/ticker/24hr?symbol=';
   const res = await request.get(url + name + vol);
